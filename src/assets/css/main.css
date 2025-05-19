@@ -1,0 +1,39 @@
+.fixed-top{
+	transition: 0.5s;
+	background: var(--bs-blue);
+	border: 0;
+}
+
+.topbar{
+	padding: 20px;
+	border-radius: 230px 100px;
+
+}
+
+.topbar .top-info{
+	font-size: 14px;
+	line-height: 0;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+}
+
+.topbar .top-link{
+	font-size: 15px;
+	line-height: 0;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+}
+
+.topbar .top-link a{
+	letter-spacing: 1px;
+}
+.fixed-top {
+  transition: 0.5s;
+  background-color: #129672; /* match or blend with topbar */
+  border: none;
+}
+
+
+
