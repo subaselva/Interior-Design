@@ -1,5 +1,6 @@
 {
   "name": "clientapp",
+  "homepage": "https://subaselva.github.io/Interior-Design",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,10 +13,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.8",
+    "@react-three/fiber": "^9.1.2",
     "fabric": "^5.5.2",
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
